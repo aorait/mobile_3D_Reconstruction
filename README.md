@@ -1,5 +1,5 @@
-# mobile_3D_Reconstruction
-#Title: Sparse 3D reconstruction of a textured object on an iOS device
+## mobile_3D_Reconstruction
+## Title: Sparse 3D reconstruction of a textured object on an iOS device
 
 **Team:** Aishanou Rait, Astha Prasad
 
@@ -11,7 +11,7 @@
 
 The aim of the project is to learn the performance bottlenecks of a basic implementation of Bundle Adjustment and what can be done to remove them. The following are the major steps which will be implemented:
 
-<img src="https://github.com/aorait/mobile_3D_Reconstruction/blob/master/images/Flowchart.png" width="400">
+<img src="https://github.com/aorait/mobile_3D_Reconstruction/blob/master/images/Flowchart.png" width="500">
 
 **Goals and Deliverables:**
 PLAN TO ACHIEVE:Sparse 3D reconstruction of an object  using a video recorded on a mobile device. 
@@ -22,6 +22,7 @@ The success of the project will be validated by providing a live recording of th
 Realistically, we plan successfully execute sparse 3D reconstruction within the allotted time. Achieving semi-dense reconstruction in real time would be our stretch goal. 
 
 **Schedule:**
+
 <img src="https://github.com/aorait/mobile_3D_Reconstruction/blob/master/images/Schedule.PNG" width="600">
 
 
