@@ -14,7 +14,9 @@ The aim of the project is to learn the performance bottlenecks of a basic implem
 <img src="https://github.com/aorait/mobile_3D_Reconstruction/blob/master/images/Flowchart.png" width="500">
 
 **Goals and Deliverables:**
+
 PLAN TO ACHIEVE:Sparse 3D reconstruction of an object  using a video recorded on a mobile device. 
+
 HOPE TO ACHIEVE:Real time sparse reconstruction
 
 The success of the project will be validated by providing a live recording of the device screen exhibiting a user capturing a video of a 3D textured object followed by 3D sparse reconstruction of the object.  
