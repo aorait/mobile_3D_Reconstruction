@@ -28,8 +28,7 @@ The success of the project will be validated by providing a live recording of th
 Realistically, we plan successfully execute sparse 3D reconstruction within the allotted time. Achieving semi-dense reconstruction in real time would be our stretch goal. 
 
 Schedule:
-![Alt-image-text-if-image-doesn't-load]/images/Schedule.PNG
-
+![alt tag](https://github.com/aorait/mobile_3D_Reconstruction/blob/master/images/Schedule.PNG)
 
 
 
