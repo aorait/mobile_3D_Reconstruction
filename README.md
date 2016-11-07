@@ -11,13 +11,7 @@ The Challenge: A naive implementation of Bundle Adjustment will not run fast on 
 
 The aim of the project is to learn the performance bottlenecks of a basic implementation of Bundle Adjustment and what can be done to remove them. The following are the major steps which will be implemented:
 
-1. Feature detection
-2. Feature matching
-3. Estimate Fundamental matrix between two images for initialization
-4. Convert Fundamental matrix to Essential Matrix
-5. Obtain camera poses from Essential Matrix up to scale
-6. Obtain 3D point locations using triangulation
-7. Perform Bundle Adjustment to refine camera poses and scene structure
+![alt tag](https://github.com/aorait/mobile_3D_Reconstruction/blob/master/images/Flowchart.png)
 
 Goals and Deliverables: 
 PLAN TO ACHIEVE:Sparse 3D reconstruction of an object  using a video recorded on a mobile device. 
@@ -28,6 +22,7 @@ The success of the project will be validated by providing a live recording of th
 Realistically, we plan successfully execute sparse 3D reconstruction within the allotted time. Achieving semi-dense reconstruction in real time would be our stretch goal. 
 
 Schedule:
+
 ![alt tag](https://github.com/aorait/mobile_3D_Reconstruction/blob/master/images/Schedule.PNG)
 
 
