@@ -12,6 +12,7 @@
 The aim of the project is to learn the performance bottlenecks of a basic implementation of Bundle Adjustment and what can be done to remove them. The following are the major steps which will be implemented:
 
 ![image](https://github.com/aorait/mobile_3D_Reconstruction/blob/master/images/Flowchart.png = 200x400)
+<img src="https://github.com/aorait/mobile_3D_Reconstruction/blob/master/images/Flowchart.png" width="200">
 
 **Goals and Deliverables:**
 PLAN TO ACHIEVE:Sparse 3D reconstruction of an object  using a video recorded on a mobile device. 
