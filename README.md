@@ -3,29 +3,19 @@
 
 **Team:** Aishanou Rait, Astha Prasad
 
-**Summary:** Implement the entire Bundle Adjustment pipeline for obtaining the N-view 3D reconstruction of an object with sufficient features. The user will take video of the object using an iOS device and after processing 3D reconstruction of the object would be displayed.
+**Abstract:** The goal of this project was to implement the entire Bundle Adjustment pipeline for obtaining the N-view 3D reconstruction of an object with sufficient features. The user is asked to take a video of the object of interest using an iOS device, which is then processed to generate the 3D reconstructed points. .
 
-**Background:** The Bundle Adjustment part would be implemented in MATLAB or C++ for another class project to understand the nitty-gritty's of the various steps involved in the pipeline. This implementation will not focus on real-time performance. However, it is always better to obtain 3D reconstruction of an object in real time using just a mobile device. For Example, if a 3D reconstruction of a room is available then one can project models of furniture to see how it fits. Thus through this project we aim to make the reconstruction work on a mobile device with a stretch goal of making it real time. 
+**Introduction:**Since 3D reconstruction requires computationally heavy non-linear optimization, the feasibility of realistically performing this pipeline on a mobile device is rather untested. Current mobile solutions lean on mobile devices for the sole purpose of capturing object images with ease. The collected images of the object are then uploaded to the cloud where the 3D reconstruction is performed, thus taking the mobile’s processing capabilities out of the equation. The following report outlines our attempts to perform the 3D reconstruction pipeline on a mobile device with the help of available open source non-linear optimizers such as the Ceres solver for iOS devices. 
 
-**The Challenge:** A naive implementation of Bundle Adjustment will not run fast on an embedded system platform. The challenge is to figure out what optimizations can be performed for the system to run in real time: such as using the Ceres solver or the G2O. The compatibility of these libraries and the performance enhancement has to be discovered.
+**Background:** Some of the popular open source Structure for Motion packages available are:
+Bundler (Windows/Linux)
+VisualSFM (Windows/Linux/Mac)
+SFMedu (MATLAB)
 
-The aim of the project is to learn the performance bottlenecks of a basic implementation of Bundle Adjustment and what can be done to remove them. The following are the major steps which will be implemented:
+While all the above offer solutions for Bundle Adjustment, none of the above are developed for iOS devices and the speed ups used by them cannot be easily ported onto a mobile device. Thus we decided to implement our own basic pipeline using openCV’s functions on an iOS device and try to optimize at an algorithmic level. 
 
-<img src="https://github.com/aorait/mobile_3D_Reconstruction/blob/master/images/Flowchart.png" width="500">
-
-**Goals and Deliverables:**
-
-PLAN TO ACHIEVE:Sparse 3D reconstruction of an object  using a video recorded on a mobile device. 
-
-HOPE TO ACHIEVE:Real time sparse reconstruction
-
-The success of the project will be validated by providing a live recording of the device screen exhibiting a user capturing a video of a 3D textured object followed by 3D sparse reconstruction of the object.  
-
-Realistically, we plan successfully execute sparse 3D reconstruction within the allotted time. Achieving semi-dense reconstruction in real time would be our stretch goal. 
-
-**Schedule:**
-
-<img src="https://github.com/aorait/mobile_3D_Reconstruction/blob/master/images/Schedule.PNG" width="600">
+**Results:** The details of the results are shown in the video below. For more details please refer report in the repository.
+[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
 
 
 
