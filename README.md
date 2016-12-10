@@ -15,7 +15,7 @@ SFMedu (MATLAB)
 While all the above offer solutions for Bundle Adjustment, none of the above are developed for iOS devices and the speed ups used by them cannot be easily ported onto a mobile device. Thus we decided to implement our own basic pipeline using openCV’s functions on an iOS device and try to optimize at an algorithmic level. 
 
 **Results:** The details of the results are shown in the video below. For more details please refer to the report in the repository.
-[![Alt text for your video](http://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](http://www.youtube.com/watch?v=T-D1KVIuvjA)
+[![Alt text for your video](https://www.youtube.com/watch?v=fVRoBMjeklY/0.jpg)](https://www.youtube.com/watch?v=fVRoBMjeklY)
 
 
 
